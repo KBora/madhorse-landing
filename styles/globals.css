@@ -6,6 +6,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+
 a {
   color: inherit;
   text-decoration: none;
@@ -14,3 +15,31 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.rotate-right {
+  animation: rotate-right 60s infinite linear;
+}
+
+@keyframes rotate-right {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+.rotate-left {
+  animation: rotate-left 90s infinite linear;
+}
+
+@keyframes rotate-left {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+

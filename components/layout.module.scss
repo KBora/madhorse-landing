@@ -1,0 +1,74 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(0,1,5);
+  background: linear-gradient(0deg, rgba(0,1,5,1) 0%, rgba(9,0,53,1) 100%);
+  color: #cacacd;
+}
+
+.landingTextContainer {  
+  margin: 3rem 1rem;
+  max-width: 36rem;
+}
+
+.bodyText {
+  font-size: 1.35rem;
+  font-weight: 300;
+  line-height: 1.25;
+  margin-bottom: 1.5rem;
+  color: #f5f5f7;
+
+  &.isBold {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  &.isRight {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.illustration {
+  display: flex;
+  position: relative;
+  height: 400px;
+  width: 400px;
+}
+
+.donateButton {
+  color: #ffffff;
+  border-radius: 4rem;
+  border-width: 0px;
+  background: linear-gradient(90deg, rgb(39, 53, 79) 0%, rgb(53, 28, 66) 100%);      
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: 3.5rem 0;
+
+  &:hover {
+    background: linear-gradient(90deg, rgb(55, 75, 114) 0%, rgb(97, 58, 118) 100%);
+  }
+
+  .donateButtonText {
+    margin-right: 0.5rem;
+  }
+}
+
+.signature {
+  font-size: 1rem;
+  line-height: 1.75;
+
+  .signatureHandle {
+    display: flex;
+    align-items: center;
+  }
+
+}
