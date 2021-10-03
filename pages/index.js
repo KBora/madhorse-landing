@@ -28,11 +28,17 @@ export default function Home() {
         </div>
 
         <div className={styles.landingTextContainer}>
-          <div className={styles.bodyText}>
+          <div className={styles.title}>
+            Introducing MAD
+          </div>
+          <div className={styles.subtitle}>
+            Monetary Assets Deluxe
+          </div>          
+          <div className={styles.bodyText}>          
             We, the founders, represent a select group of individuals, currently operating in stealth-mode, that came together to mix real expertise, real skills and real assets, in order to grow and ethically share our wealth with the crypto community willing to join us.
           </div>
           <div className={styles.bodyText}>
-            We are working to create a digital token able to act as a bridge between traditional assets, like commodities such as gold, silver, platinum and other alternative assets such as wine and whisky, and the very few cryptocurrencies that are worth investing in that offer the opportunity of staking, hence generating extra yield.
+            We are working to create a digital token able to act as a bridge between traditional assets, like commodities such as gold, silver, platinum and other alternative assets such as wine, whisky and watches, and the very few cryptocurrencies that are worth investing in that offer the opportunity of staking, hence generating extra yield.
           </div>
           <div className={`${styles.bodyText} ${styles.isBold}`}>
             Do you like what you hear and want to join us?
@@ -77,10 +83,7 @@ export default function Home() {
           </div>
 
           
-        </div>
-  
-          
-          
+        </div>          
           
 
       </Layout>
