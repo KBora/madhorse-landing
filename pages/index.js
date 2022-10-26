@@ -27,59 +27,44 @@ export default function Home() {
           />
         </div>
 
+        <div className={styles.logo}>
+          <Image
+            src="/images/madhorse-corp-logo.svg"
+            alt="Madhorse Corp. Logo"
+            height="56px"
+            width="260px"
+          />
+        </div>
+        
+
         <div className={styles.landingTextContainer}>
-          <div className={styles.title}>
-            Introducing MAD
-          </div>
           <div className={styles.subtitle}>
-            Monetary Assets Deluxe
+            Powering machine learning trading solutions for the financial sector
           </div>          
-          <div className={styles.bodyText}>          
-            We, the founders, represent a select group of individuals, currently operating in stealth-mode, that came together to mix real expertise, real skills and real assets, in order to grow and ethically share our wealth with the crypto community willing to join us.
-          </div>
-          <div className={styles.bodyText}>
-            We are working to create a digital token able to act as a bridge between traditional assets, like commodities such as gold, silver, platinum and other alternative assets such as wine, whisky and watches, and the very few cryptocurrencies that are worth investing in that offer the opportunity of staking, hence generating extra yield.
-          </div>
-          <div className={`${styles.bodyText} ${styles.isBold}`}>
-            Do you like what you hear and want to join us?
-          </div>
-          <div className={styles.bodyText}>
-            Donate here and tokens will be assigned at a 30% discount.
-          </div>
-
-          <div className={styles.bodyText}>
-            <a href="https://cryptocurrencycheckout.com/donate/xrlIgsJQED">
-              <button className={styles.donateButton}>
-                <div className={styles.donateButtonText}>
-                  Donate
-                </div>
-                <Image
-                  src="/images/bitcoin-sign.svg"
-                  alt="Bitcoin"
-                  height="24px"
-                  width="24px"
-                  className="icon-margin-right"
-                />
-              </button>
-            </a>
-
-          </div>
 
           <div className={styles.bodyTex}>            
             <div className={styles.signature}>
-              <div>Ride with us on Twitter</div>
+              <div>
+                <a href="mailto:info@madhorse.io">info@madhorse.io</a>
+              </div>              
               <div className={styles.signatureHandle}>
-                <Image
-                  src="/images/twitter.svg"
-                  alt="Bitcoin"
-                  height="24px"
-                  width="24px"
-                  className="icon-margin-right"
-                />
+                
+                <div className={styles.socialIcon}>
+                  <Image
+                    src="/images/twitter.svg"
+                    alt="Bitcoin"
+                    height="24px"
+                    width="24px"
+                  />
+                </div>
                 <div><a href="https://twitter.com/Madhorseride">@madhorseride</a></div>
               </div>
             </div>
             
+          </div>
+
+          <div className={styles.about}>
+            Madhorse Corp. is a privately held company incorporated in the British Virgin Islands
           </div>
 
           

@@ -19,7 +19,8 @@
   align-items: center;  
 }
 
-.landingTextContainer {  
+.landingTextContainer {
+  text-align: center;
   margin: 3rem 1rem;
   max-width: 36rem;
 }
@@ -32,7 +33,7 @@
 
 .subtitle {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 2rem;
 }
 
@@ -84,12 +85,22 @@
 .signature {
   font-size: 1rem;
   line-height: 1.75;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 
   .signatureHandle {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 
+}
+
+.socialIcon {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
 }
 
 .menu {
@@ -97,4 +108,14 @@
   top: 0; 
   left: 0;
   color: white;
+}
+
+.logo {
+  margin-top: 2rem;
+}
+
+.about {
+  font-size: 0.85rem;
+  font-weight: 300;
+  margin-top: 5rem;
 }
