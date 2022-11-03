@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Madhorse Landing</title>
+        <title>Madhorse Riding</title>
       </Head>
       <Layout>
         <div className={styles.illustration}>
@@ -39,7 +39,7 @@ export default function Home() {
 
         <div className={styles.landingTextContainer}>
           <div className={styles.subtitle}>
-            Powering machine learning trading solutions for the financial sector
+            Powering Machine Learning trading solutions for the financial sector
           </div>          
 
           <div className={styles.bodyTex}>            
